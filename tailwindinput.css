@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .container {
+    @apply w-[80vw];
+    @apply my-10;
+    @apply flex flex-col justify-center gap-7;
+  }
+
+  .skills {
+    @apply grid grid-cols-6 grid-rows-2 gap-5;
+  }
+
+  .skill-card {
+    @apply flex flex-col gap-3;
+    @apply rounded-lg p-4;
+    @apply font-semibold text-[#fff];
+
+    & > div {
+      flex-basis: 75%;
+
+      & > img {
+        float: right;
+      }
+    }
+
+    & > h2 {
+      flex-basis: 25%;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}

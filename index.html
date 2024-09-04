@@ -12,8 +12,69 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <h1 class="gal font-sans text-3xl font-bold underline">Hello world!</h1>
+  <body class="bg-light-cream h-screen">
+    <div class="container">
+      <div class="flex items-center justify-between" id="top-bar">
+        <img src="assets/logo.svg" alt="Logo SVG" />
+        <button
+          class="hover:bg-galactic-blue text-light-cream rounded-[50px] bg-black px-14 py-5 font-semibold"
+        >
+          Free Consultation
+        </button>
+      </div>
+
+      <div class="mt-5 flex flex-col items-center gap-6" id="title-card">
+        <h1 class="text-xl font-bold">Design solutions made easy</h1>
+        <h3 class="text-medium-brown w-[55%] text-center text-sm font-light">
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </h3>
+      </div>
+
+      <section class="skills" id="skills-grid">
+        <div class="skill-card bg-galactic-blue col-span-2 row-span-2">
+          <div>
+            <img
+              src="assets/pattern-graphic-design.svg"
+              alt="Graphic Design Logo"
+            />
+          </div>
+          <h2>Graphic Design</h2>
+        </div>
+        <div class="skill-card bg-summer-yellow">
+          <div><img src="assets/pattern-ui-ux.svg" alt="UI UX Logo" /></div>
+          <h2>UI/UX</h2>
+        </div>
+        <div class="skill-card bg-pink">
+          <div><img src="assets/pattern-apps.svg" alt="Apps Logo" /></div>
+          <h2>Apps</h2>
+        </div>
+        <div class="skill-card bg-cyan col-span-2">
+          <div>
+            <img src="assets/pattern-photography.svg" alt="Photography Logo" />
+          </div>
+          <h2>Photography</h2>
+        </div>
+        <div class="skill-card bg-light-red col-span-2">
+          <div>
+            <img
+              src="assets/pattern-illustrations.svg"
+              alt="Illustrations Logo"
+            />
+          </div>
+          <h2>Illustrations</h2>
+        </div>
+        <div class="skill-card bg-dark-purple col-span-2">
+          <div>
+            <img
+              src="assets/pattern-motion-graphics.svg"
+              alt="Motion Graphics Logo"
+            />
+          </div>
+          <h2>Motion Graphics</h2>
+        </div>
+      </section>
+    </div>
 
     <script src="app.js"></script>
   </body>
