@@ -4,9 +4,18 @@
 
 @layer components {
   .container {
-    @apply w-[80vw];
+    @apply w-[100vw];
     @apply my-10;
     @apply flex flex-col justify-center gap-7;
+  }
+
+  #top-bar,
+  #title-card,
+  #skills-grid,
+  #profile-intro,
+  #booking,
+  #bottom-bar {
+    @apply mx-[10vw] sm:mx-[3vw] md:mx-[5vw];
   }
 
   .btn {
