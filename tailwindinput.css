@@ -46,4 +46,10 @@
     /* Mobile */
     @apply sm:flex-col sm:items-center sm:gap-10;
   }
+
+  .booking-card {
+    @apply mb-10 grid grid-cols-3 gap-5 rounded-lg bg-black p-10;
+    /* Tablet */
+    @apply md:grid-cols-1 md:justify-items-center;
+  }
 }

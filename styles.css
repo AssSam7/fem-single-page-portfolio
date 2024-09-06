@@ -638,6 +638,25 @@ video {
   }
 }
 
+.booking-card {
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 3 3 / var(--tw-bg-opacity));
+  padding: 2.5rem;
+  /* Tablet */
+}
+
+@media (max-width: 767px) {
+  .booking-card {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-items: center;
+  }
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -667,12 +686,24 @@ video {
   min-height: 43vh;
 }
 
+.w-\[268px\] {
+  width: 268px;
+}
+
 .w-\[55\%\] {
   width: 55%;
 }
 
+.w-\[65\%\] {
+  width: 65%;
+}
+
 .min-w-\[40\%\] {
   min-width: 40%;
+}
+
+.basis-5 {
+  flex-basis: 1.25rem;
 }
 
 .flex-col {
@@ -689,6 +720,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-6 {
@@ -775,6 +810,11 @@ video {
   color: rgb(3 3 3 / var(--tw-text-opacity));
 }
 
+.text-light-cream {
+  --tw-text-opacity: 1;
+  color: rgb(255 247 240 / var(--tw-text-opacity));
+}
+
 .text-medium-brown {
   --tw-text-opacity: 1;
   color: rgb(122 116 110 / var(--tw-text-opacity));
@@ -807,8 +847,16 @@ video {
     width: 364px;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:min-w-\[45\%\] {
     min-width: 45%;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:text-base {
@@ -827,16 +875,16 @@ video {
     text-align: center;
   }
 
-  .sm\:text-\[26px\] {
-    font-size: 26px;
+  .sm\:text-\[14px\] {
+    font-size: 14px;
   }
 
   .sm\:text-\[16px\] {
     font-size: 16px;
   }
 
-  .sm\:text-\[14px\] {
-    font-size: 14px;
+  .sm\:text-\[26px\] {
+    font-size: 26px;
   }
 
   .sm\:text-\[36px\] {
