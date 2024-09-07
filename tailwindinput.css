@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  html {
+    overflow-wrap: hidden;
+  }
+
   .container {
     @apply w-[100vw];
     @apply my-10;
@@ -20,6 +24,10 @@
 
   .btn {
     @apply text-light-cream rounded-[50px] px-14 py-5 font-semibold;
+  }
+
+  .btn-arrow {
+    @apply hover:bg-galactic-blue flex items-center justify-center rounded-full bg-black p-8;
   }
 
   .skills {
@@ -54,6 +62,10 @@
     @apply flex gap-[12%];
     /* Mobile */
     @apply sm:flex-col sm:items-center sm:gap-10;
+  }
+
+  .my-work-section {
+    @apply my-5 flex flex-col items-center gap-10;
   }
 
   .booking-card {
