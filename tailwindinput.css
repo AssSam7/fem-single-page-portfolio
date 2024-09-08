@@ -28,6 +28,10 @@
 
   .btn-arrow {
     @apply hover:bg-galactic-blue flex items-center justify-center rounded-full bg-black p-8;
+    /* Tablet */
+    @apply md:p-6;
+    /* Mobile */
+    @apply sm:p-4;
   }
 
   .skills {
