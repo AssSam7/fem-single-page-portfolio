@@ -27,9 +27,9 @@
   }
 
   .btn-arrow {
-    @apply hover:bg-galactic-blue flex items-center justify-center rounded-full bg-black p-8;
+    @apply hover:bg-galactic-blue flex items-center justify-center rounded-full bg-black p-6;
     /* Tablet */
-    @apply md:p-6;
+    @apply md:p-5;
     /* Mobile */
     @apply sm:p-4;
   }
@@ -39,7 +39,7 @@
     /* For Tablet */
     @apply md:grid-cols-4;
     /* For Mobile */
-    @apply sm:grid-cols-2;
+    @apply sm:grid-cols-2 sm:grid-rows-[175px_175px_182px_158px_158px+158px];
   }
 
   .skill-card {
@@ -69,13 +69,23 @@
   }
 
   .my-work-section {
-    @apply my-5 flex flex-col items-center gap-10 md:gap-7;
+    @apply my-5 flex flex-col items-center gap-10;
+
     /* Mobile */
     @apply sm:mx-10;
   }
 
+  #works-slider {
+    @apply sm:min-h-[40vh] md:min-h-[35vh];
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
   .booking-card {
-    @apply mb-10 grid grid-cols-3 gap-5 rounded-lg bg-black p-10;
+    @apply mb-10 mt-5 grid grid-cols-3 gap-5 rounded-lg bg-black p-10;
     /* Tablet */
     @apply md:grid-cols-1 md:justify-items-center;
   }
