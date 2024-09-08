@@ -69,7 +69,9 @@
   }
 
   .my-work-section {
-    @apply my-5 flex flex-col items-center gap-10;
+    @apply my-5 flex flex-col items-center gap-10 md:gap-7;
+    /* Mobile */
+    @apply sm:mx-10;
   }
 
   .booking-card {

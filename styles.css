@@ -723,6 +723,23 @@ html {
   gap: 2.5rem;
 }
 
+@media (max-width: 767px) {
+  .my-work-section {
+    gap: 1.75rem;
+  }
+}
+
+.my-work-section {
+  /* Mobile */
+}
+
+@media (max-width: 639px) {
+  .my-work-section {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+}
+
 .booking-card {
   margin-bottom: 2.5rem;
   display: grid;
