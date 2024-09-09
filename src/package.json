@@ -1,0 +1,26 @@
+{
+  "name": "fem-single-page-portfolio",
+  "version": "1.0.0",
+  "description": "Using this design file will help you practice building projects in the same way professionals do. Seeing the details in the design will help you improve your accuracy when building projects and build projects faster.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssSam7/fem-password-generator.git"
+  },
+  "keywords": [
+    "Javascript",
+    "CSS",
+    "TailwindCSS"
+  ],
+  "author": "Aslam Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssSam7/fem-single-page-portfolio/issues"
+  },
+  "homepage": "https://github.com/AssSam7/fem-single-page-portfolio#readme",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.10"
+  }
+}

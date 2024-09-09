@@ -9,7 +9,7 @@ let width = document.documentElement.clientWidth || window.innerWidth;
 function getInitialMobileWorksSliderHTML() {
   return `<div data-id="1">
             <img
-              src="assets/image-slide-1.jpg"
+              src="../assets/image-slide-1.jpg"
               alt="Slide 1"
               class="rounded-lg"
             />
@@ -19,21 +19,21 @@ function getInitialMobileWorksSliderHTML() {
 function getInitialDesktopWorksSliderHTML() {
   return `<div data-id="1">
             <img
-              src="assets/image-slide-1.jpg"
+              src="../assets/image-slide-1.jpg"
               alt="Slide 1"
               class="rounded-lg"
             />
           </div>
           <div data-id="2">
             <img
-              src="assets/image-slide-2.jpg"
+              src="../assets/image-slide-2.jpg"
               alt="Slide 2"
               class="rounded-lg"
             />
           </div>
           <div data-id="3">
             <img
-              src="assets/image-slide-3.jpg"
+              src="../assets/image-slide-3.jpg"
               alt="Slide 3"
               class="rounded-lg"
             />
@@ -46,7 +46,7 @@ function arrowRightDesktopHandler() {
   const newId = refId > 5 ? refId - 5 : refId;
   const nextImgDivHTML = `<div data-id="${newId}">
             <img
-              src="assets/image-slide-${newId}.jpg"
+              src="../assets/image-slide-${newId}.jpg"
               alt="Slide ${newId}"
               class="rounded-lg"
             />
@@ -63,7 +63,7 @@ function arrowLeftDesktopHandler() {
   const newId = refId < 1 ? 5 - Math.abs(refId) : refId;
   const nextImgDivHTML = `<div data-id="${newId}">
             <img
-              src="assets/image-slide-${newId}.jpg"
+              src="../assets/image-slide-${newId}.jpg"
               alt="Slide ${newId}"
               class="rounded-lg"
             />
@@ -80,7 +80,7 @@ function arrowRightMobileHandler() {
   const newId = refId === 5 ? 1 : refId + 1;
   const newImgDivHTML = `<div data-id="${newId}">
             <img
-              src="assets/image-slide-${newId}.jpg"
+              src="../assets/image-slide-${newId}.jpg"
               alt="Slide ${newId}"
               class="rounded-lg"
             />
@@ -93,7 +93,7 @@ function arrowLeftMobileHandler() {
   const newId = refId === 1 ? 5 : refId - 1;
   const newImgDivHTML = `<div data-id="${newId}">
             <img
-              src="assets/image-slide-${newId}.jpg"
+              src="../assets/image-slide-${newId}.jpg"
               alt="Slide ${newId}"
               class="rounded-lg"
             />
