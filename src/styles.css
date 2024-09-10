@@ -820,10 +820,6 @@ html {
   flex-basis: 1.25rem;
 }
 
-.resize {
-  resize: both;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -850,10 +846,6 @@ html {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .bg-black {
