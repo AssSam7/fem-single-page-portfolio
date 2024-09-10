@@ -6,7 +6,7 @@
 
 ## Live Demo 🪁
 
-<a href="https://frontendmentor-passgenerator.netlify.app/" target="_new">https://frontendmentor-passgenerator.netlify.app/</a>
+<a href="https://fem-singlepage-design-portfolio.netlify.app/" target="_new">https://fem-singlepage-design-portfolio.netlify.app/</a>
 
 ## User Stories 🏷️
 
